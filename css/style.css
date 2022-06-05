@@ -37,6 +37,7 @@ a:hover {
 }
 
 .menu {
+  font-size: 1.3em;
   background-color: var(--orange);
   border-radius: 1em;
 }
