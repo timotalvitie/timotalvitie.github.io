@@ -4,6 +4,11 @@
   --black: rgb(30,30,30);
   --orange: rgb(255, 144, 40);
   --dark-grey: rgb(120, 120, 120);
+
+  --p-gr-dark: rgba(0, 0, 0, 0.45);
+  --p-gr-light: rgba(0, 0, 0, 0.15);
+  --p-gr-off: rgba(0, 0, 0, 0);
+
 }
 
 html, body {
@@ -186,4 +191,24 @@ body.portfolio-active #menu-item-portfolio {
 
 .scrollable {
   overflow: auto;
+}
+
+
+.portfolio-item {
+  transition: background-image 1s ease-out;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+
+}
+
+/* Some customizations to simpleLightbox to better 
+facilitate longer title on smaller screen */
+.slbCaption {
+  overflow: auto;
+  font-size: inherit;
+  white-space: inherit;
+  background-color: rgba(0,0,0,0.5);
 }
