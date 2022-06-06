@@ -145,6 +145,12 @@ const portfolio = [
     "title": `
       Thanatos Journal
       `
+  },
+  {
+    "href": "portfolio/p_yngwie_more.jpg",
+    "title": `
+      Yngwie
+      `
   }
 ];
 
