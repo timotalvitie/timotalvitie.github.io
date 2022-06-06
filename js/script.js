@@ -125,7 +125,27 @@ const portfolio = [
     "title": `
       Get Back
       `
-  },  
+  },
+  {
+    "href": "portfolio/p_thanatos_1of3.jpg",
+    "title": `
+      Thanatos Journal
+      `
+  },
+  {
+    "href": "portfolio/p_thanatos_2of3.jpg",
+    "hide_thumbnail": true,
+    "title": `
+      Thanatos Journal
+      `
+  },
+  {
+    "href": "portfolio/p_thanatos_3of3.jpg",
+    "hide_thumbnail": true,
+    "title": `
+      Thanatos Journal
+      `
+  }
 ];
 
 const pItemGradient = "linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.20))";
