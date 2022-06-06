@@ -71,6 +71,60 @@ const portfolio = [
       <b>Mammoth Sun Cover Art set 4/4</b>.
       Lorem ipsum.
       `
+  },
+  {
+    "href": "portfolio/p_norden.jpg",
+    "title": `
+      <b>Norden</b>, a tourism poster idea for The Nordics.
+      Lorem ipsum.
+      `
+  },
+  {
+    "href": "portfolio/p_sneakerhead.jpg",
+    "title": `
+      Logo and packaging ideas for sneaker brand <b>Sneakerhead</b>. Coursework assignment for Helsinki Design School.
+      `
+  },
+  {
+    "href": "portfolio/p_getback_1of6.jpg",
+    "title": `
+      Get Back
+      `
+  },
+  {
+    "href": "portfolio/p_getback_2of6.jpg",
+    "hide_thumbnail": true,
+    "title": `
+      Get Back
+      `
+  },  
+  {
+    "href": "portfolio/p_getback_3of6.jpg",
+    "hide_thumbnail": true,
+    "title": `
+      Get Back
+      `
+  },  
+  {
+    "href": "portfolio/p_getback_4of6.jpg",
+    "hide_thumbnail": true,
+    "title": `
+      Get Back
+      `
+  },  
+  {
+    "href": "portfolio/p_getback_5of6.jpg",
+    "hide_thumbnail": true,
+    "title": `
+      Get Back
+      `
+  },  
+  {
+    "href": "portfolio/p_getback_6of6.jpg",
+    "hide_thumbnail": true,
+    "title": `
+      Get Back
+      `
   },  
 ];
 
@@ -90,7 +144,7 @@ $(document).ready(() => {
       const thumbnailPath = `${p.href.split(".")[0]}_thumb.jpg`;
 
       const $pItem = $("<a></a>", {
-        "class": "portfolio-item m-1",
+        "class": `portfolio-item m-1 ${_.has(p, "hide_thumbnail") && p.hide_thumbnail ? 'd-none' : '' }`,
         "href": p.href,
         "sbl-title": p.title,
         "data-thumbnail-path": thumbnailPath
