@@ -22,7 +22,56 @@ const portfolio = [
       <b>Max Payne / Mr. Bean Mashup</b>.
       A mashup of video game art in the style of Max Payne, merged with Mr. Bean.
       `
-  }    
+  },
+  {
+    "href": "portfolio/p_lbr_all.jpg",
+    "title": `
+      <b>Lost Beyond Redemption promos 1/3</b>.
+      Lorem ipsum.
+      `
+  },
+  {
+    "href": "portfolio/p_lbr_mh.jpg",
+    "title": `
+      <b>Lost Beyond Redemption promos 2/3</b>.
+      Lorem ipsum.
+      `
+  },
+  {
+    "href": "portfolio/p_lbr_tu.jpg",
+    "title": `
+      <b>Lost Beyond Redemption promos 3/3</b>.
+      Lorem ipsum.
+      `
+  },
+  {
+    "href": "portfolio/p_mammoth_sun_halo.jpg",
+    "title": `
+      <b>Mammoth Sun Cover Art set 1/4</b>.
+      Lorem ipsum.
+      `
+  },
+  {
+    "href": "portfolio/p_mammoth_sun_ascent.jpg",
+    "title": `
+      <b>Mammoth Sun Cover Art set 2/4</b>.
+      Lorem ipsum.
+      `
+  },  
+  {
+    "href": "portfolio/p_mammoth_sun_derelict.jpg",
+    "title": `
+      <b>Mammoth Sun Cover Art set 3/4</b>.
+      Lorem ipsum.
+      `
+  },  
+  {
+    "href": "portfolio/p_mammoth_sun_landings.jpg",
+    "title": `
+      <b>Mammoth Sun Cover Art set 4/4</b>.
+      Lorem ipsum.
+      `
+  },  
 ];
 
 const pItemGradient = "linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.20))";
