@@ -211,4 +211,14 @@ facilitate longer title on smaller screen */
   font-size: inherit;
   white-space: inherit;
   background-color: rgba(0,0,0,0.5);
+  font-size: 0.8em;
+}
+
+.slbImage {
+  /* Decrease top padding */
+  padding: 2em 0 5em 0;
+}
+
+.slbCloseBtn {
+  font-size: 2em;
 }
