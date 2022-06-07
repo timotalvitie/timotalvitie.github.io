@@ -58,24 +58,21 @@ const portfolio = [
   {
     "href": "portfolio/p_thanatos_1of3.jpg",
     "title": `
-      <bThanatos, 1/3</b>. A print design for a 53-page academic journal. The client provided the texts and images, but gave otherwise 
-      full creative freedom for the typography and layout.
+      <b>Thanatos, 1/3</b>. A print design for a 53-page academic journal, covering the typography and layout.
       `
   },
   {
     "href": "portfolio/p_thanatos_2of3.jpg",
     "hide_thumbnail": true,
     "title": `
-      <bThanatos, 2/3</b>. A print design for a 53-page academic journal. The client provided the texts and images, but gave otherwise 
-      full creative freedom for the typography and layout.
+    <b>Thanatos, 2/3</b>. A print design for a 53-page academic journal, covering the typography and layout.
       `
   },
   {
     "href": "portfolio/p_thanatos_3of3.jpg",
     "hide_thumbnail": true,
     "title": `
-      <bThanatos, 3/3</b>. A print design for a 53-page academic journal. The client provided the texts and images, but gave otherwise 
-      full creative freedom for the typography and layout.
+      <b>Thanatos, 3/3</b>. A print design for a 53-page academic journal, covering the typography and layout.
       `
   },
   {
@@ -122,13 +119,13 @@ const portfolio = [
   {
     "href": "portfolio/p_sneakerhead.jpg",
     "title": `
-      <b>Sneakerhead</b>. A logo design and usage mockup idea for a fictional sneaker brand <b>Sneakerhead</b>. A coursework design assignment at Helsinki Design School.
+      <b>Sneakerhead</b>. A logo design and usage mockup idea for a fictional sneaker brand. A coursework design assignment at Helsinki Design School.
       `
   },
   {
     "href": "portfolio/p_norden.jpg",
     "title": `
-      <b>Norden</b>, a tourism poster idea for The Nordics. A nordic noir theme, with still emphasis on the majestic nature. 
+      <b>Norden</b>, a tourism poster idea for The Nordics. A nordic noir theme, with still emphasis on the majestic nature of Norway. 
       A coursework design assignment at Helsinki Design School.
       `
   },
