@@ -3,153 +3,160 @@ let currentSlideIndex;
 
 const portfolio = [
   {
-    "href": "portfolio/p_the_mandalorian.jpg",
-    "title": `
-      <b>The Mandalorian Poster Idea</b>.
-      A mashup of movie posters, made in the style of <u>The American</u> but with Mandalorian characters. <a href="www.google.fi">link test</a> lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum end.
-      `
-  },
-  {
-    "href": "portfolio/p_minion_peaks.jpg",
-    "title": `
-      <b>Twin Peaks / Minions Poster Mashup</b>.
-      A mashup of movie posters, made in the style of <u>Twin Peaks</u> but with inions.
-      `
-  },
-  {
-    "href": "portfolio/p_max_beane.jpg",
-    "title": `
-      <b>Max Payne / Mr. Bean Mashup</b>.
-      A mashup of video game art in the style of Max Payne, merged with Mr. Bean.
-      `
-  },
-  {
     "href": "portfolio/p_lbr_all.jpg",
     "title": `
-      <b>Lost Beyond Redemption promos 1/3</b>.
-      Lorem ipsum.
+      <b>Band promos for Lost Beyond Redemption, 1/3</b>. Originals taken indoors by a photographer, and then retouched to a predefined
+      color scheme and style.
       `
   },
   {
     "href": "portfolio/p_lbr_mh.jpg",
     "title": `
-      <b>Lost Beyond Redemption promos 2/3</b>.
-      Lorem ipsum.
+    <b>Band promos for Lost Beyond Redemption, 2/3</b>. Originals taken indoors by a photographer, and then retouched to a predefined
+    color scheme and style.
       `
   },
   {
     "href": "portfolio/p_lbr_tu.jpg",
     "title": `
-      <b>Lost Beyond Redemption promos 3/3</b>.
-      Lorem ipsum.
+    <b>Band promos for Lost Beyond Redemption, 3/3</b>. Originals taken indoors by a photographer, and then retouched to a predefined
+    color scheme and style.
       `
   },
   {
     "href": "portfolio/p_mammoth_sun_halo.jpg",
     "title": `
-      <b>Mammoth Sun Cover Art set 1/4</b>.
-      Lorem ipsum.
+      <b>Spotify Cover Art set, 1/4</b>. A rugged and grungy look to suit the project. The design aims to use a similar theme 
+      in all four covers, to provide an uniform look and feel into an artist's Spotify profile where 
+      all cover art gets shown side by side.
       `
   },
   {
     "href": "portfolio/p_mammoth_sun_ascent.jpg",
     "title": `
-      <b>Mammoth Sun Cover Art set 2/4</b>.
-      Lorem ipsum.
+      <b>Spotify Cover Art set, 2/4</b>. A rugged and grungy look to suit the project. The design aims to use a similar theme 
+      in all four covers, to provide an uniform look and feel into an artist's Spotify profile where 
+      all cover art gets shown side by side.
       `
   },  
   {
     "href": "portfolio/p_mammoth_sun_derelict.jpg",
     "title": `
-      <b>Mammoth Sun Cover Art set 3/4</b>.
-      Lorem ipsum.
+      <b>Spotify Cover Art set, 3/4</b>. A rugged and grungy look to suit the project. The design aims to use a similar theme 
+      in all four covers, to provide an uniform look and feel into an artist's Spotify profile where 
+      all cover art gets shown side by side.
       `
   },  
   {
     "href": "portfolio/p_mammoth_sun_landings.jpg",
     "title": `
-      <b>Mammoth Sun Cover Art set 4/4</b>.
-      Lorem ipsum.
-      `
-  },
-  {
-    "href": "portfolio/p_norden.jpg",
-    "title": `
-      <b>Norden</b>, a tourism poster idea for The Nordics.
-      Lorem ipsum.
-      `
-  },
-  {
-    "href": "portfolio/p_sneakerhead.jpg",
-    "title": `
-      Logo and packaging ideas for sneaker brand <b>Sneakerhead</b>. Coursework assignment for Helsinki Design School.
+      <b>Spotify Cover Art set, 4/4</b>. A rugged and grungy look to suit the project. The design aims to use a similar theme 
+      in all four covers, to provide an uniform look and feel into an artist's Spotify profile where 
+      all cover art gets shown side by side.
       `
   },
   {
     "href": "portfolio/p_getback_1of6.jpg",
     "title": `
-      Get Back
+      <b>Get Back 1/6</b>. A print design for a magazine article. A coursework design assignment at Helsinki Design School. 
       `
   },
   {
     "href": "portfolio/p_getback_2of6.jpg",
     "hide_thumbnail": true,
     "title": `
-      Get Back
+      <b>Get Back 2/6</b>. A print design for a magazine article. A coursework design assignment at Helsinki Design School. 
       `
   },  
   {
     "href": "portfolio/p_getback_3of6.jpg",
     "hide_thumbnail": true,
     "title": `
-      Get Back
+      <b>Get Back 3/6</b>. A print design for a magazine article. A coursework design assignment at Helsinki Design School. 
       `
   },  
   {
     "href": "portfolio/p_getback_4of6.jpg",
     "hide_thumbnail": true,
     "title": `
-      Get Back
-      `
+    <b>Get Back 4/6</b>. A print design for a magazine article. A coursework design assignment at Helsinki Design School. 
+    `
   },  
   {
     "href": "portfolio/p_getback_5of6.jpg",
     "hide_thumbnail": true,
     "title": `
-      Get Back
-      `
+      <b>Get Back 5/6</b>. A print design for a magazine article. A coursework design assignment at Helsinki Design School. 
+    `
   },  
   {
     "href": "portfolio/p_getback_6of6.jpg",
     "hide_thumbnail": true,
     "title": `
-      Get Back
-      `
+    <b>Get Back 6/6</b>. A print design for a magazine article. A coursework design assignment at Helsinki Design School. 
+    `
   },
   {
     "href": "portfolio/p_thanatos_1of3.jpg",
     "title": `
-      Thanatos Journal
+      <bThanatos, 1/3</b>. A print design for a 53-page academic journal. The client provided the texts and images, but gave otherwise 
+      full creative freedom for the typography and layout.
       `
   },
   {
     "href": "portfolio/p_thanatos_2of3.jpg",
     "hide_thumbnail": true,
     "title": `
-      Thanatos Journal
+      <bThanatos, 2/3</b>. A print design for a 53-page academic journal. The client provided the texts and images, but gave otherwise 
+      full creative freedom for the typography and layout.
       `
   },
   {
     "href": "portfolio/p_thanatos_3of3.jpg",
     "hide_thumbnail": true,
     "title": `
-      Thanatos Journal
+      <bThanatos, 3/3</b>. A print design for a 53-page academic journal. The client provided the texts and images, but gave otherwise 
+      full creative freedom for the typography and layout.
+      `
+  },
+  {
+    "href": "portfolio/p_sneakerhead.jpg",
+    "title": `
+      <b>Sneakerhead</b>. A logo design and usage mockup idea for a fictional sneaker brand <b>Sneakerhead</b>. A coursework design assignment at Helsinki Design School.
+      `
+  },
+  {
+    "href": "portfolio/p_norden.jpg",
+    "title": `
+      <b>Norden</b>, a tourism poster idea for The Nordics. A nordic noir theme, with still emphasis on the majestic nature. 
+      A coursework design assignment at Helsinki Design School.
       `
   },
   {
     "href": "portfolio/p_yngwie_more.jpg",
     "title": `
-      Yngwie
+      <b>Yngwie vs. Shepard</b>. A mashup of Shepard Fairey's classic design "Hope", combined with guitarist Yngwie Malmsteen's 
+      catchprase of more always being more. A coursework design assignment at Helsinki Design School.
+      `
+  },
+  {
+    "href": "portfolio/p_the_mandalorian.jpg",
+    "title": `
+      <b>The Mandalorian</b>. A movie poster mashup, in the style of <a href="https://www.imdb.com/title/tt1440728/" target="_blank">The American</a>
+      but with Mandalorian theme and characters.
+      `
+  },
+  {
+    "href": "portfolio/p_minion_peaks.jpg",
+    "title": `
+      <b>Minion Peaks</b>. A poster design mashup, in the style of <a href="https://www.imdb.com/title/tt4093826" target="_blank"/> Twin Peaks from 2017</a>
+      but mashed up with the Minions from the movie Despicable Me.
+      `
+  },
+  {
+    "href": "portfolio/p_max_beane.jpg",
+    "title": `
+      <b>Max Beane</b>. A video game art mashup, in the style of Max Payne art from 2001, but with Mr. Bean as the main character.
       `
   }
 ];
