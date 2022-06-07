@@ -133,17 +133,17 @@ const portfolio = [
       `
   },
   {
-    "href": "portfolio/p_yngwie_more.jpg",
-    "title": `
-      <b>Yngwie vs. Shepard</b>. A mashup of Shepard Fairey's classic design "Hope", combined with guitarist Yngwie Malmsteen's 
-      catchprase of more always being more. A coursework design assignment at Helsinki Design School.
-      `
-  },
-  {
     "href": "portfolio/p_minion_peaks.jpg",
     "title": `
       <b>Minion Peaks</b>. A poster design mashup, in the style of <a href="https://www.imdb.com/title/tt4093826" target="_blank"/> Twin Peaks from 2017</a>
       but mashed up with the Minions from the movie Despicable Me.
+      `
+  },  
+  {
+    "href": "portfolio/p_yngwie_more.jpg",
+    "title": `
+      <b>Yngwie vs. Shepard</b>. A mashup of Shepard Fairey's classic design "Hope", combined with guitarist Yngwie Malmsteen's 
+      catchprase of more always being more. A coursework design assignment at Helsinki Design School.
       `
   },
   {
