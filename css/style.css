@@ -168,29 +168,6 @@ body.portfolio-active #menu-item-portfolio {
   transform: translateY(15vh);
 }
 
-.img-personal {
-  max-width: 150px;
-}
-
-#bio-left {
-  /* background-color: rgba(200,0,0,0.1); */
-}
-
-#bio-center {
-   /* background-color: #080; 
-  display: none; */
-}
-
-#bio-right {
-  /* display: block; */
-}
-
-@media (min-width: 576px) { 
-  #bio-right {
-    /* display: block; */
-  } 
-}
-
 @media (min-width: 768px) {
   #bio-center {
     display: block;
