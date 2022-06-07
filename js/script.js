@@ -10,14 +10,14 @@ const portfolio = [
       `
   },
   {
-    "href": "portfolio/p_lbr_mh.jpg",
+    "href": "portfolio/p_lbr_tu.jpg",
     "title": `
     <b>Band promos for Lost Beyond Redemption, 2/3</b>. Originals taken indoors by a photographer, and then retouched to a predefined
     color scheme and style.
       `
   },
   {
-    "href": "portfolio/p_lbr_tu.jpg",
+    "href": "portfolio/p_lbr_mh.jpg",
     "title": `
     <b>Band promos for Lost Beyond Redemption, 3/3</b>. Originals taken indoors by a photographer, and then retouched to a predefined
     color scheme and style.
@@ -53,6 +53,29 @@ const portfolio = [
       <b>Spotify Cover Art set, 4/4</b>. A rugged and grungy look to suit the project. The design aims to use a similar theme 
       in all four covers, to provide an uniform look and feel into an artist's Spotify profile where 
       all cover art gets shown side by side.
+      `
+  },
+  {
+    "href": "portfolio/p_thanatos_1of3.jpg",
+    "title": `
+      <bThanatos, 1/3</b>. A print design for a 53-page academic journal. The client provided the texts and images, but gave otherwise 
+      full creative freedom for the typography and layout.
+      `
+  },
+  {
+    "href": "portfolio/p_thanatos_2of3.jpg",
+    "hide_thumbnail": true,
+    "title": `
+      <bThanatos, 2/3</b>. A print design for a 53-page academic journal. The client provided the texts and images, but gave otherwise 
+      full creative freedom for the typography and layout.
+      `
+  },
+  {
+    "href": "portfolio/p_thanatos_3of3.jpg",
+    "hide_thumbnail": true,
+    "title": `
+      <bThanatos, 3/3</b>. A print design for a 53-page academic journal. The client provided the texts and images, but gave otherwise 
+      full creative freedom for the typography and layout.
       `
   },
   {
@@ -97,29 +120,6 @@ const portfolio = [
     `
   },
   {
-    "href": "portfolio/p_thanatos_1of3.jpg",
-    "title": `
-      <bThanatos, 1/3</b>. A print design for a 53-page academic journal. The client provided the texts and images, but gave otherwise 
-      full creative freedom for the typography and layout.
-      `
-  },
-  {
-    "href": "portfolio/p_thanatos_2of3.jpg",
-    "hide_thumbnail": true,
-    "title": `
-      <bThanatos, 2/3</b>. A print design for a 53-page academic journal. The client provided the texts and images, but gave otherwise 
-      full creative freedom for the typography and layout.
-      `
-  },
-  {
-    "href": "portfolio/p_thanatos_3of3.jpg",
-    "hide_thumbnail": true,
-    "title": `
-      <bThanatos, 3/3</b>. A print design for a 53-page academic journal. The client provided the texts and images, but gave otherwise 
-      full creative freedom for the typography and layout.
-      `
-  },
-  {
     "href": "portfolio/p_sneakerhead.jpg",
     "title": `
       <b>Sneakerhead</b>. A logo design and usage mockup idea for a fictional sneaker brand <b>Sneakerhead</b>. A coursework design assignment at Helsinki Design School.
@@ -140,17 +140,17 @@ const portfolio = [
       `
   },
   {
-    "href": "portfolio/p_the_mandalorian.jpg",
-    "title": `
-      <b>The Mandalorian</b>. A movie poster mashup, in the style of <a href="https://www.imdb.com/title/tt1440728/" target="_blank">The American</a>
-      but with Mandalorian theme and characters.
-      `
-  },
-  {
     "href": "portfolio/p_minion_peaks.jpg",
     "title": `
       <b>Minion Peaks</b>. A poster design mashup, in the style of <a href="https://www.imdb.com/title/tt4093826" target="_blank"/> Twin Peaks from 2017</a>
       but mashed up with the Minions from the movie Despicable Me.
+      `
+  },
+  {
+    "href": "portfolio/p_the_mandalorian.jpg",
+    "title": `
+      <b>The Mandalorian</b>. A movie poster mashup, in the style of <a href="https://www.imdb.com/title/tt1440728/" target="_blank">The American</a>
+      but with Mandalorian theme and characters.
       `
   },
   {
