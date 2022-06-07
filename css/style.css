@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 :root {
+  --white: rgb(255,255,255);
   --black: rgb(30,30,30);
   --orange: rgb(255, 144, 40);
   --dark-grey: rgb(120, 120, 120);
@@ -22,15 +23,21 @@ body {
 
 a, a:visited, a:active {
   color: var(--orange);
+  text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
-  color: #fff;
+  color: var(--orange);
 }
 
 .orange {
-  color: var(--orange)
+  color: var(--orange)!important;
+}
+
+.white {
+  color: var(--white)!important;
+  
 }
 
 .black {
